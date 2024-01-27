@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38D8CCF82B64FA4600A1219B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D8CCF72B64FA4600A1219B /* AppDelegate.m */; };
+		38D8CCFA2B64FA4800A1219B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D8CCF92B64FA4800A1219B /* Assets.xcassets */; };
+		38D8CCFD2B64FA4800A1219B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D8CCFB2B64FA4800A1219B /* MainMenu.xib */; };
+		38D8CCFF2B64FA4800A1219B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D8CCFE2B64FA4800A1219B /* main.m */; };
+		38D8CD0A2B64FA4800A1219B /* _D_Game_EngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D8CD092B64FA4800A1219B /* _D_Game_EngineTests.m */; };
+		38D8CD142B64FA4800A1219B /* _D_Game_EngineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D8CD132B64FA4800A1219B /* _D_Game_EngineUITests.m */; };
+		38D8CD162B64FA4800A1219B /* _D_Game_EngineUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D8CD152B64FA4800A1219B /* _D_Game_EngineUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38D8CD062B64FA4800A1219B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38D8CCEB2B64FA4600A1219B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38D8CCF22B64FA4600A1219B;
+			remoteInfo = 2D_Game_Engine;
+		};
+		38D8CD102B64FA4800A1219B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38D8CCEB2B64FA4600A1219B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38D8CCF22B64FA4600A1219B;
+			remoteInfo = 2D_Game_Engine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38D8CCF32B64FA4600A1219B /* 2D_Game_Engine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2D_Game_Engine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D8CCF62B64FA4600A1219B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38D8CCF72B64FA4600A1219B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38D8CCF92B64FA4800A1219B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38D8CCFC2B64FA4800A1219B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		38D8CCFE2B64FA4800A1219B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38D8CD002B64FA4800A1219B /* _D_Game_Engine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _D_Game_Engine.entitlements; sourceTree = "<group>"; };
+		38D8CD052B64FA4800A1219B /* 2D_Game_EngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2D_Game_EngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D8CD092B64FA4800A1219B /* _D_Game_EngineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_Game_EngineTests.m; sourceTree = "<group>"; };
+		38D8CD0F2B64FA4800A1219B /* 2D_Game_EngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2D_Game_EngineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D8CD132B64FA4800A1219B /* _D_Game_EngineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_Game_EngineUITests.m; sourceTree = "<group>"; };
+		38D8CD152B64FA4800A1219B /* _D_Game_EngineUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_Game_EngineUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38D8CCF02B64FA4600A1219B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D8CD022B64FA4800A1219B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D8CD0C2B64FA4800A1219B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38D8CCEA2B64FA4600A1219B = {
+			isa = PBXGroup;
+			children = (
+				38D8CCF52B64FA4600A1219B /* 2D_Game_Engine */,
+				38D8CD082B64FA4800A1219B /* 2D_Game_EngineTests */,
+				38D8CD122B64FA4800A1219B /* 2D_Game_EngineUITests */,
+				38D8CCF42B64FA4600A1219B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38D8CCF42B64FA4600A1219B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38D8CCF32B64FA4600A1219B /* 2D_Game_Engine.app */,
+				38D8CD052B64FA4800A1219B /* 2D_Game_EngineTests.xctest */,
+				38D8CD0F2B64FA4800A1219B /* 2D_Game_EngineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38D8CCF52B64FA4600A1219B /* 2D_Game_Engine */ = {
+			isa = PBXGroup;
+			children = (
+				38D8CCF62B64FA4600A1219B /* AppDelegate.h */,
+				38D8CCF72B64FA4600A1219B /* AppDelegate.m */,
+				38D8CCF92B64FA4800A1219B /* Assets.xcassets */,
+				38D8CCFB2B64FA4800A1219B /* MainMenu.xib */,
+				38D8CCFE2B64FA4800A1219B /* main.m */,
+				38D8CD002B64FA4800A1219B /* _D_Game_Engine.entitlements */,
+			);
+			path = 2D_Game_Engine;
+			sourceTree = "<group>";
+		};
+		38D8CD082B64FA4800A1219B /* 2D_Game_EngineTests */ = {
+			isa = PBXGroup;
+			children = (
+				38D8CD092B64FA4800A1219B /* _D_Game_EngineTests.m */,
+			);
+			path = 2D_Game_EngineTests;
+			sourceTree = "<group>";
+		};
+		38D8CD122B64FA4800A1219B /* 2D_Game_EngineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38D8CD132B64FA4800A1219B /* _D_Game_EngineUITests.m */,
+				38D8CD152B64FA4800A1219B /* _D_Game_EngineUITestsLaunchTests.m */,
+			);
+			path = 2D_Game_EngineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38D8CCF22B64FA4600A1219B /* 2D_Game_Engine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38D8CD192B64FA4800A1219B /* Build configuration list for PBXNativeTarget "2D_Game_Engine" */;
+			buildPhases = (
+				38D8CCEF2B64FA4600A1219B /* Sources */,
+				38D8CCF02B64FA4600A1219B /* Frameworks */,
+				38D8CCF12B64FA4600A1219B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2D_Game_Engine;
+			productName = 2D_Game_Engine;
+			productReference = 38D8CCF32B64FA4600A1219B /* 2D_Game_Engine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38D8CD042B64FA4800A1219B /* 2D_Game_EngineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38D8CD1C2B64FA4800A1219B /* Build configuration list for PBXNativeTarget "2D_Game_EngineTests" */;
+			buildPhases = (
+				38D8CD012B64FA4800A1219B /* Sources */,
+				38D8CD022B64FA4800A1219B /* Frameworks */,
+				38D8CD032B64FA4800A1219B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38D8CD072B64FA4800A1219B /* PBXTargetDependency */,
+			);
+			name = 2D_Game_EngineTests;
+			productName = 2D_Game_EngineTests;
+			productReference = 38D8CD052B64FA4800A1219B /* 2D_Game_EngineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38D8CD0E2B64FA4800A1219B /* 2D_Game_EngineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38D8CD1F2B64FA4800A1219B /* Build configuration list for PBXNativeTarget "2D_Game_EngineUITests" */;
+			buildPhases = (
+				38D8CD0B2B64FA4800A1219B /* Sources */,
+				38D8CD0C2B64FA4800A1219B /* Frameworks */,
+				38D8CD0D2B64FA4800A1219B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38D8CD112B64FA4800A1219B /* PBXTargetDependency */,
+			);
+			name = 2D_Game_EngineUITests;
+			productName = 2D_Game_EngineUITests;
+			productReference = 38D8CD0F2B64FA4800A1219B /* 2D_Game_EngineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38D8CCEB2B64FA4600A1219B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					38D8CCF22B64FA4600A1219B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					38D8CD042B64FA4800A1219B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 38D8CCF22B64FA4600A1219B;
+					};
+					38D8CD0E2B64FA4800A1219B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 38D8CCF22B64FA4600A1219B;
+					};
+				};
+			};
+			buildConfigurationList = 38D8CCEE2B64FA4600A1219B /* Build configuration list for PBXProject "2D_Game_Engine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38D8CCEA2B64FA4600A1219B;
+			productRefGroup = 38D8CCF42B64FA4600A1219B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38D8CCF22B64FA4600A1219B /* 2D_Game_Engine */,
+				38D8CD042B64FA4800A1219B /* 2D_Game_EngineTests */,
+				38D8CD0E2B64FA4800A1219B /* 2D_Game_EngineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38D8CCF12B64FA4600A1219B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D8CCFA2B64FA4800A1219B /* Assets.xcassets in Resources */,
+				38D8CCFD2B64FA4800A1219B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D8CD032B64FA4800A1219B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D8CD0D2B64FA4800A1219B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38D8CCEF2B64FA4600A1219B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D8CCFF2B64FA4800A1219B /* main.m in Sources */,
+				38D8CCF82B64FA4600A1219B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D8CD012B64FA4800A1219B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D8CD0A2B64FA4800A1219B /* _D_Game_EngineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D8CD0B2B64FA4800A1219B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D8CD142B64FA4800A1219B /* _D_Game_EngineUITests.m in Sources */,
+				38D8CD162B64FA4800A1219B /* _D_Game_EngineUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38D8CD072B64FA4800A1219B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38D8CCF22B64FA4600A1219B /* 2D_Game_Engine */;
+			targetProxy = 38D8CD062B64FA4800A1219B /* PBXContainerItemProxy */;
+		};
+		38D8CD112B64FA4800A1219B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38D8CCF22B64FA4600A1219B /* 2D_Game_Engine */;
+			targetProxy = 38D8CD102B64FA4800A1219B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38D8CCFB2B64FA4800A1219B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38D8CCFC2B64FA4800A1219B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38D8CD172B64FA4800A1219B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		38D8CD182B64FA4800A1219B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		38D8CD1A2B64FA4800A1219B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 2D_Game_Engine/_D_Game_Engine.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "disc0des.-D-Game-Engine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		38D8CD1B2B64FA4800A1219B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 2D_Game_Engine/_D_Game_Engine.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "disc0des.-D-Game-Engine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		38D8CD1D2B64FA4800A1219B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "disc0des.-D-Game-EngineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2D_Game_Engine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2D_Game_Engine";
+			};
+			name = Debug;
+		};
+		38D8CD1E2B64FA4800A1219B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "disc0des.-D-Game-EngineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2D_Game_Engine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2D_Game_Engine";
+			};
+			name = Release;
+		};
+		38D8CD202B64FA4800A1219B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "disc0des.-D-Game-EngineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = 2D_Game_Engine;
+			};
+			name = Debug;
+		};
+		38D8CD212B64FA4800A1219B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "disc0des.-D-Game-EngineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = 2D_Game_Engine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38D8CCEE2B64FA4600A1219B /* Build configuration list for PBXProject "2D_Game_Engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D8CD172B64FA4800A1219B /* Debug */,
+				38D8CD182B64FA4800A1219B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38D8CD192B64FA4800A1219B /* Build configuration list for PBXNativeTarget "2D_Game_Engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D8CD1A2B64FA4800A1219B /* Debug */,
+				38D8CD1B2B64FA4800A1219B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38D8CD1C2B64FA4800A1219B /* Build configuration list for PBXNativeTarget "2D_Game_EngineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D8CD1D2B64FA4800A1219B /* Debug */,
+				38D8CD1E2B64FA4800A1219B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38D8CD1F2B64FA4800A1219B /* Build configuration list for PBXNativeTarget "2D_Game_EngineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38D8CD202B64FA4800A1219B /* Debug */,
+				38D8CD212B64FA4800A1219B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38D8CCEB2B64FA4600A1219B /* Project object */;
+}

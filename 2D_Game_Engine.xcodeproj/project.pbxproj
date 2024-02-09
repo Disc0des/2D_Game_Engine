@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38D8CCF82B64FA4600A1219B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D8CCF72B64FA4600A1219B /* AppDelegate.m */; };
+		380B8DCA2B74D51E00BCEDD4 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 380B8DC92B74D51E00BCEDD4 /* assets */; };
+		385A34482B7626C20063672A /* TextureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 385A34462B7626C20063672A /* TextureManager.cpp */; };
+		385A344B2B762C170063672A /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 385A34492B762C170063672A /* GameObject.cpp */; };
+		38BC452D2B740D2C001621A0 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38BC452B2B73FD15001621A0 /* SDL2_image.framework */; };
+		38BC452E2B740D2C001621A0 /* SDL2_image.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38BC452B2B73FD15001621A0 /* SDL2_image.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38D8CCFA2B64FA4800A1219B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D8CCF92B64FA4800A1219B /* Assets.xcassets */; };
-		38D8CCFD2B64FA4800A1219B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38D8CCFB2B64FA4800A1219B /* MainMenu.xib */; };
-		38D8CCFF2B64FA4800A1219B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D8CCFE2B64FA4800A1219B /* main.m */; };
 		38D8CD0A2B64FA4800A1219B /* _D_Game_EngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D8CD092B64FA4800A1219B /* _D_Game_EngineTests.m */; };
 		38D8CD142B64FA4800A1219B /* _D_Game_EngineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D8CD132B64FA4800A1219B /* _D_Game_EngineUITests.m */; };
 		38D8CD162B64FA4800A1219B /* _D_Game_EngineUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D8CD152B64FA4800A1219B /* _D_Game_EngineUITestsLaunchTests.m */; };
+		38D8CD242B64FA9400A1219B /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D8CD232B64FA9400A1219B /* SDL2.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		38D8CD252B64FA9400A1219B /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38D8CD232B64FA9400A1219B /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		38D8CD292B64FABE00A1219B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38D8CD272B64FABE00A1219B /* main.cpp */; };
+		38D8CD2C2B64FB3500A1219B /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38D8CD2A2B64FB3500A1219B /* Game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,19 +39,40 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		38D8CD262B64FA9400A1219B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				38D8CD252B64FA9400A1219B /* SDL2.framework in Embed Frameworks */,
+				38BC452E2B740D2C001621A0 /* SDL2_image.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		380B8DC92B74D51E00BCEDD4 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		385A34462B7626C20063672A /* TextureManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TextureManager.cpp; sourceTree = "<group>"; };
+		385A34472B7626C20063672A /* TextureManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TextureManager.hpp; sourceTree = "<group>"; };
+		385A34492B762C170063672A /* GameObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
+		385A344A2B762C170063672A /* GameObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameObject.hpp; sourceTree = "<group>"; };
+		38BC452B2B73FD15001621A0 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
 		38D8CCF32B64FA4600A1219B /* 2D_Game_Engine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2D_Game_Engine.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		38D8CCF62B64FA4600A1219B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		38D8CCF72B64FA4600A1219B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		38D8CCF92B64FA4800A1219B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		38D8CCFC2B64FA4800A1219B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		38D8CCFE2B64FA4800A1219B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38D8CD002B64FA4800A1219B /* _D_Game_Engine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _D_Game_Engine.entitlements; sourceTree = "<group>"; };
 		38D8CD052B64FA4800A1219B /* 2D_Game_EngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2D_Game_EngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D8CD092B64FA4800A1219B /* _D_Game_EngineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_Game_EngineTests.m; sourceTree = "<group>"; };
 		38D8CD0F2B64FA4800A1219B /* 2D_Game_EngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2D_Game_EngineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D8CD132B64FA4800A1219B /* _D_Game_EngineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_Game_EngineUITests.m; sourceTree = "<group>"; };
 		38D8CD152B64FA4800A1219B /* _D_Game_EngineUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_Game_EngineUITestsLaunchTests.m; sourceTree = "<group>"; };
+		38D8CD232B64FA9400A1219B /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		38D8CD272B64FABE00A1219B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		38D8CD2A2B64FB3500A1219B /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		38D8CD2B2B64FB3500A1219B /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D8CD242B64FA9400A1219B /* SDL2.framework in Frameworks */,
+				38BC452D2B740D2C001621A0 /* SDL2_image.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,10 +105,12 @@
 		38D8CCEA2B64FA4600A1219B = {
 			isa = PBXGroup;
 			children = (
+				380B8DC92B74D51E00BCEDD4 /* assets */,
 				38D8CCF52B64FA4600A1219B /* 2D_Game_Engine */,
 				38D8CD082B64FA4800A1219B /* 2D_Game_EngineTests */,
 				38D8CD122B64FA4800A1219B /* 2D_Game_EngineUITests */,
 				38D8CCF42B64FA4600A1219B /* Products */,
+				38D8CD222B64FA9400A1219B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,12 +127,15 @@
 		38D8CCF52B64FA4600A1219B /* 2D_Game_Engine */ = {
 			isa = PBXGroup;
 			children = (
-				38D8CCF62B64FA4600A1219B /* AppDelegate.h */,
-				38D8CCF72B64FA4600A1219B /* AppDelegate.m */,
 				38D8CCF92B64FA4800A1219B /* Assets.xcassets */,
-				38D8CCFB2B64FA4800A1219B /* MainMenu.xib */,
-				38D8CCFE2B64FA4800A1219B /* main.m */,
 				38D8CD002B64FA4800A1219B /* _D_Game_Engine.entitlements */,
+				38D8CD272B64FABE00A1219B /* main.cpp */,
+				38D8CD2A2B64FB3500A1219B /* Game.cpp */,
+				38D8CD2B2B64FB3500A1219B /* Game.hpp */,
+				385A34462B7626C20063672A /* TextureManager.cpp */,
+				385A34472B7626C20063672A /* TextureManager.hpp */,
+				385A34492B762C170063672A /* GameObject.cpp */,
+				385A344A2B762C170063672A /* GameObject.hpp */,
 			);
 			path = 2D_Game_Engine;
 			sourceTree = "<group>";
@@ -123,6 +157,15 @@
 			path = 2D_Game_EngineUITests;
 			sourceTree = "<group>";
 		};
+		38D8CD222B64FA9400A1219B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38BC452B2B73FD15001621A0 /* SDL2_image.framework */,
+				38D8CD232B64FA9400A1219B /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,6 +176,7 @@
 				38D8CCEF2B64FA4600A1219B /* Sources */,
 				38D8CCF02B64FA4600A1219B /* Frameworks */,
 				38D8CCF12B64FA4600A1219B /* Resources */,
+				38D8CD262B64FA9400A1219B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,8 +270,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				380B8DCA2B74D51E00BCEDD4 /* assets in Resources */,
 				38D8CCFA2B64FA4800A1219B /* Assets.xcassets in Resources */,
-				38D8CCFD2B64FA4800A1219B /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,8 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38D8CCFF2B64FA4800A1219B /* main.m in Sources */,
-				38D8CCF82B64FA4600A1219B /* AppDelegate.m in Sources */,
+				385A344B2B762C170063672A /* GameObject.cpp in Sources */,
+				38D8CD292B64FABE00A1219B /* main.cpp in Sources */,
+				38D8CD2C2B64FB3500A1219B /* Game.cpp in Sources */,
+				385A34482B7626C20063672A /* TextureManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,17 +334,6 @@
 			targetProxy = 38D8CD102B64FA4800A1219B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		38D8CCFB2B64FA4800A1219B /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38D8CCFC2B64FA4800A1219B /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		38D8CD172B64FA4800A1219B /* Debug */ = {
@@ -425,6 +460,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
@@ -449,6 +488,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;

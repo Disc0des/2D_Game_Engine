@@ -9,8 +9,10 @@
 #include "TextureManager.hpp"
 #include "GameObject.hpp"
 
-SDL_Texture* playerOne;
-SDL_Rect srcRect, destRect;
+GameObject* playerOne;
+GameObject* playerTwo;
+
+SDL_Renderer* Game::renderer = nullptr;
 
 Game::Game() {
     
@@ -41,8 +43,9 @@ void Game::init(const char *title, int xpos, int ypos, int width, int height, bo
             std::cout << "Renderer created!" << std:: endl;
         }
 
-        // Rendering player one
-        playerOne = TextureManager::LoadTexture("assets/player_1_S.png", renderer);
+        // Rendering players
+        playerOne = new GameObject("assets/player_1_S.png", 0, 0);
+        playerTwo = new GameObject("assets/player_2_S.png", 100, 0);
 
         SDL_PumpEvents();
 
@@ -67,16 +70,16 @@ void Game::handleEvents() {
 
 void Game::update() {
     counter++;
-    destRect.h = 64;
-    destRect.w = 64;
-    destRect.x = counter;
+    playerOne->Update();
+    playerTwo->Update();
 }
 
 void Game::render() {
     SDL_RenderClear(renderer);
     
-    // Render player one
-    SDL_RenderCopy(renderer, playerOne, NULL, &destRect);
+    // Render players
+    playerOne->Render();
+    playerTwo->Render();
     
     SDL_RenderPresent(renderer);
 }

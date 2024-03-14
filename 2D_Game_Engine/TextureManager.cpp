@@ -10,7 +10,8 @@
 SDL_Texture* TextureManager::LoadTexture(const char* fileName)
 {
     SDL_Surface* tempSurface = IMG_Load(fileName);
-    if (tempSurface == NULL) {
+    if (tempSurface == NULL) 
+    {
         std::cout << "Unable to load image from filepath: " << fileName << std::endl;
     }
     

@@ -8,7 +8,8 @@
 #include "Game.hpp"
 
 Game *game = nullptr;
-int main() {
+int main() 
+{
     
     // Limiting the frame rate
     const int FPS = 60;

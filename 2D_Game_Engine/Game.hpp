@@ -12,7 +12,8 @@
 #include "SDL2/SDL.h"
 #include <SDL2_image/SDL_image.h>
 
-class Game {
+class Game 
+{
 public:
     Game();
     ~Game();
@@ -23,7 +24,8 @@ public:
     void render();
     void clean();
     
-    bool running() {
+    bool running() 
+    {
         return isRunning;
     };
     

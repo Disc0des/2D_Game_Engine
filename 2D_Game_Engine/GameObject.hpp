@@ -9,7 +9,8 @@
 #define GameObject_hpp
 #include "Game.hpp"
 
-class GameObject {
+class GameObject 
+{
     
 public:
     GameObject(const char* textureSheet, int x, int y);
